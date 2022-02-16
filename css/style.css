@@ -1,0 +1,188 @@
+html{
+    background-color: #ACBED8;
+    overflow-wrap: break-word;
+    Color: #613dc1;
+}
+body{
+    z-index: -1;
+    font-size: 110%;
+    margin: 0;
+}
+p{
+    text-align: left;
+    min-width: 50%;
+}
+button{
+    margin-bottom: 1em;
+    float: left;
+    position: relative;
+    top : 45%
+}
+.nav-container{
+    z-index: 1;
+    width : 80%;
+    margin: 0 auto;
+    background-color: red;
+}
+.headerImg{
+    float: left;
+    height: 20px;
+    width: auto;
+    padding : 15px 0;
+    margin-left: 15px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin : 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display : inline-block;
+    margin-left : 70px;
+    padding-top: 15px;
+    position: relative;
+}
+nav ul li a{
+    color : white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li:last-child{
+    margin-right: 15px;
+}
+header ::after{
+    content: "";
+    display : table;
+    clear: both;
+}
+nav a::after{
+    content: "";
+    display: block;
+    height : 3px;
+    width: 0%;
+    background-color: white;
+    position: absolute;
+    transition: all ease-in-out 250ms;
+
+}
+nav a:hover::after{
+    width : 100%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.textAlignLeft{
+    text-align: left;
+}
+#cssExample2{
+    margin-top: 1em;
+}
+.center{
+    text-align: center;
+    align-items: center;
+}
+header{
+    background-color: #DB1A1A;
+}
+.homeText p{
+    height: inherit;
+    top : 22%;
+    width: 30%;
+    position: relative;
+    text-align: left;
+    margin: 0 30%;
+}
+#mainPage{
+    z-index: -1;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    padding-top: 2em;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+.examplesRight{
+    position: relative;
+    top: 30%;
+}
+.code{
+    background-color: lightgray;
+    padding: 0 15px  0 15px;
+    margin-right: 15px;
+    width: 20px;
+}
+.description p{
+    text-align: center;
+
+    max-width: 50%;
+}
+.home{
+    
+    display: flex;
+    flex-basis: 50%;
+}
+
+
+.section{
+    margin-top: 1em;
+    justify-content: space-between;
+    display: flex;
+    flex-basis: 30%;
+    flex-grow:1 ;
+    margin-bottom: 1em;
+}
+.navbar{
+    margin: 0 auto;
+}
+.dot{
+    width: 23px;
+    height: 23px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 3px;
+}
+.code{
+    width: 90%;
+    background-color: lightgray;
+
+}
+.canvas_wrapper{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+.square {
+    width:50px;
+    height: 50px;
+
+}
+.exampleObject{
+    margin-right: 2em;
+    float: right;
+}
+.fifty{
+    max-width: 45%;
+    min-width: 45%;
+}
+
+.left{
+ float:left;
+}
+.right{
+    float: right;
+    margin-right: 15px;
+}
+.red{background-color: red;}
+.blue{background-color: aqua;}
+.gradient{background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(9,112,121,1) 65%, rgba(0,76,255,1) 100%);}
