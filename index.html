@@ -156,9 +156,9 @@
                 <h1>What is Anime JS?</h1>
                 <p>Anime.js is a library that can be used in many ways, but used to do motion animation using
                     Javascript.
-                    Anime.JS uses an object defined animation solution to create the changes specified, in our below
+                    Anime.JS uses an object defined animation solution to animate the changes specified, in our below
                     example, we see a square that is a gradient so we can show with ease, rotation, scale and
-                    translation.
+                    translation, this is achieved using the library.
                 </p>
 
                 <div class="square pulse gradient"></div>
@@ -179,7 +179,7 @@
 
             </div>
             <div class="fifty">
-                <p class="code center">$ npm install animejs --save</p>
+                <p class="code center fifty">$ npm install animejs --save</p>
             </div>
 
         </div>
@@ -191,7 +191,7 @@
 
             </div>
             <div class="fifty">
-                <p class="code center"><a href="https://github.com/juliangarnier/anime/archive/master.zip"
+                <p class="code center fifty"><a href="https://github.com/juliangarnier/anime/archive/master.zip"
                         target="blank">Click
                         Here.</a>
                 </p>
@@ -205,7 +205,8 @@
 
             </div>
             <div class="fifty">
-                <p class="code center"><a href="https://cdnjs.com/libraries/animejs" target="blank">Click Here.</a>
+                <p class="code center fifty"><a href="https://cdnjs.com/libraries/animejs" target="blank">Click
+                        Here.</a>
                 </p>
             </div>
         </div>
@@ -216,15 +217,15 @@
         <div class="section">
             <div class="fifty">
                 <p class=" ">We can now start working with Anime JS, to test this we can try creating a simple
-                    animation
-                    object in our Javascript file, like so : </p>
+                    animate object in our Javascript file, at this point we dont need to specify targets or any
+                    parameters, as long as this presents no issues, we can continue </p>
             </div>
             <div class="fifty right">
                 <div class="code">
                     <code>
                                 anime({<br>
-                                    targets : *a list of objects we wish to use*,<br>
-                                    *A List of possible transformations we can do*<br>
+                                    //targets : *a list of objects we wish to use*,<br>
+                                    //*A List of possible transformations we can do*<br>
                                 });<br>
                             </code>
                 </div>
@@ -240,8 +241,10 @@
                 <div class="code">
                     <code>
                         anime({<br>
-                            targets: ".classObjec #idObject",<br>
-                            opacity : .5<br>
+                            targets: ".classObject #idObject",<br>
+                            opacity: '0.5', <br>
+                            backgroundColor: '#4e148c', <br>
+                            width: '200px' <br>
                         });
 
                     </code>
@@ -306,7 +309,7 @@
                     deffinitions, by default when it comes to translations and width/height, its in px, you can define a
                     unit by adding quotes around the definition and adding the unit on the end. Anime JS also uses
                     relative units IE for scale, by default its a percentage, 1 being 100%, therefore 1.5 is 150%. All
-                    movement is relative to the 0, being its starting location, therfore -100px is definable as back
+                    movement is relative to the 0, being its starting location. Therefore -100px is definable as back
                     100px from the start.
                 </p>
             </div>
@@ -406,7 +409,7 @@
             </div>
 
             <div class=fifty>
-                <button onclick="example1()">click me</button>
+                <button onclick="example1()" class="button-24">click me</button>
                 <div class="square red square1 exampleObject examplesRight"></div>
             </div>
         </div>
