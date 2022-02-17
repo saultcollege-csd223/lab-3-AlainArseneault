@@ -69,7 +69,7 @@ function cssExample() {
     anime({
         targets: "#cssExample",
         keyframes: [
-            { opacity: '0.5', backgroundColor: '#4e148c', width: '200px' },
+            { opacity: '0.5', backgroundColor: '#8ecae6', width: '200px' },
             { opacity: '1', backgroundColor: "#FF0000", width: '50px' }
         ],
         duration: 5000,
