@@ -1,7 +1,7 @@
 html{
-    background-color: #ACBED8;
+    background-color: #264653;
     overflow-wrap: break-word;
-    Color: #613dc1;
+    Color: #e76f51;
 }
 body{
     z-index: -1;
@@ -19,7 +19,7 @@ p{
     z-index: 1;
     width : 80%;
     margin: 0 auto;
-    background-color: red;
+    background-color: #2a9d8f;
 }
 .headerImg{
     float: left;
@@ -42,6 +42,10 @@ nav li{
     padding-top: 15px;
     position: relative;
 }
+a{
+    text-decoration: none;
+    color : white;
+}
 nav ul li a{
     color : white;
     text-decoration: none;
@@ -60,7 +64,7 @@ nav a::after{
     display: block;
     height : 3px;
     width: 0%;
-    background-color: white;
+    background-color: #e76f51;
     position: absolute;
     transition: all ease-in-out 250ms;
 
@@ -84,7 +88,7 @@ nav a:hover::after{
     align-items: center;
 }
 header{
-    background-color: #DB1A1A;
+    background-color: #2a9d8f;
 }
 .homeText p{
     height: inherit;
@@ -113,7 +117,7 @@ h1{
     padding: 10px;
     width: 90%;
 
-    background-color: lightgray;
+    background-color: #2a9d8f;
 }
 .description p{
     text-align: center;
@@ -217,4 +221,4 @@ button:active {
 
 .red{background-color: red;}
 .blue{background-color: aqua;}
-.gradient{background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(9,112,121,1) 65%, rgba(0,76,255,1) 100%);}
+.yellow{background-color: #ee9b00;}
