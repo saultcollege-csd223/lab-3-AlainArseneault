@@ -1,0 +1,224 @@
+html{
+    background-color: #264653;
+    overflow-wrap: break-word;
+    Color: white;
+}
+body{
+    z-index: -1;
+    font-size: 140%;
+    margin: 0;
+}
+
+p{
+    text-align: left;
+    min-width: 50%;
+    margin-left: 25px;
+}
+
+.nav-container{
+    z-index: 1;
+    width : 80%;
+    margin: 0 auto;
+    background-color: #2a9d8f;
+}
+.headerImg{
+    float: left;
+    height: 20px;
+    width: auto;
+    padding : 15px 0;
+    margin-left: 15px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin : 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display : inline-block;
+    margin-left : 70px;
+    padding-top: 15px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color : white;
+}
+nav ul li a{
+    color : white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li:last-child{
+    margin-right: 15px;
+}
+header ::after{
+    content: "";
+    display : table;
+    clear: both;
+}
+nav a::after{
+    content: "";
+    display: block;
+    height : 3px;
+    width: 0%;
+    background-color: white;
+    position: absolute;
+    transition: all ease-in-out 250ms;
+
+}
+nav a:hover::after{
+    width : 100%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.textAlignLeft{
+    text-align: left;
+}
+#cssExample2{
+    margin-top: 1em;
+}
+.center{
+    text-align: center;
+    align-items: center;
+}
+header{
+    background-color: #2a9d8f;
+}
+.homeText p{
+    height: inherit;
+    top : 22%;
+    width: 30%;
+    position: relative;
+    text-align: left;
+    margin: 0 30%;
+}
+#mainPage{
+    z-index: -1;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    padding-top: 2em;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+.examplesRight{
+    position: relative;
+    top: 30%;
+}
+.code{
+    padding: 10px;
+    width: 90%;
+
+    background-color: #2a9d8f;
+}
+.description p{
+    text-align: center;
+
+    max-width: 50%;
+}
+.home{
+    
+    display: flex;
+    flex-basis: 50%;
+}
+
+
+.section{
+    margin-top: 1em;
+    justify-content: space-between;
+    display: flex;
+    flex-basis: 30%;
+    flex-grow:1 ;
+    margin-bottom: 1em;
+}
+.navbar{
+    margin: 0 auto;
+}
+.dot{
+    width: 23px;
+    height: 23px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.canvas_wrapper{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+.square {
+    width:50px;
+    height: 50px;
+
+}
+.exampleObject{
+    margin-right: 2em;
+    float: right;
+}
+.fifty{
+    max-width: 45%;
+    min-width: 45%;
+}
+
+/* CSS */
+button {
+    margin-top: 4em;
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+button:hover,
+button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+.left{
+ float:left;
+}
+.right{
+    float: right;
+    margin-right: 0;
+}
+
+
+.red{background-color: red;}
+.blue{background-color: aqua;}
+.yellow{background-color: #ee9b00;}
