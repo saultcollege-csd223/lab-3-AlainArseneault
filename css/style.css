@@ -64,7 +64,7 @@ nav a::after{
     display: block;
     height : 3px;
     width: 0%;
-    background-color: #e76f51;
+    background-color: white;
     position: absolute;
     transition: all ease-in-out 250ms;
 
